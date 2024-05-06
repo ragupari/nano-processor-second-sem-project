@@ -1,0 +1,10 @@
+Our instruction has totally 13 bits
+The additional one is for multiplication and subtraction 
+
+Our instruction are -
+Add 000 ( Addition )
+Sub 001 ( Substraction )
+Mov 010 ( Move ) 
+JZR 011 ( Jump )
+Mul 100 ( Multipication )
+Neg 101 ( Negation )
