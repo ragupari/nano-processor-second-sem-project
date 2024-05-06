@@ -2,23 +2,74 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Sun Aug  7 18:04:19 2022
-# Process ID: 7196
-# Current directory: E:/Semester 2/Computer Organization and Digital Design/Lab/FinalProject/project_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4236 E:\Semester 2\Computer Organization and Digital Design\Lab\FinalProject\project_1\project_1.xpr
-# Log file: E:/Semester 2/Computer Organization and Digital Design/Lab/FinalProject/project_1/vivado.log
-# Journal file: E:/Semester 2/Computer Organization and Digital Design/Lab/FinalProject/project_1\vivado.jou
+# Start of session at: Sun May  5 21:21:44 2024
+# Process ID: 13672
+# Current directory: C:/Users/User/Music/final_project2.0/NP_Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9664 C:\Users\User\Music\final_project2.0\NP_Final\NP_Fnal.xpr
+# Log file: C:/Users/User/Music/final_project2.0/NP_Final/vivado.log
+# Journal file: C:/Users/User/Music/final_project2.0/NP_Final\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {E:/Semester 2/Computer Organization and Digital Design/Lab/FinalProject/project_1/project_1.xpr}
+open_project C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.xpr
 update_compile_order -fileset sources_1
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top TB_NanoProcessor [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode All [current_project]
-update_compile_order -fileset sim_1
 launch_simulation
 source TB_NanoProcessor.tcl
 close_sim
+launch_simulation
+source TB_NanoProcessor.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_simulation
+source TB_NanoProcessor.tcl
+close_sim
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+launch_simulation
+source TB_NanoProcessor.tcl
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sim_1/new/TB_Mul.vhd w ]
+add_files -fileset sim_1 C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sim_1/new/TB_Mul.vhd
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Multiplier_2 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_Multiplier_2.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Instruction_Decoder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+synth_design -rtl -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top NanoProcessor [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1

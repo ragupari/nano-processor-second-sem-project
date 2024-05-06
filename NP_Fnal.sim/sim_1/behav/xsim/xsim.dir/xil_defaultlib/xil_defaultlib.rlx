@@ -1,0 +1,26 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sim_1/new/TB_Mul.vhd,1714930565,vhdl,,,,tb_multiplier_2,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sim_1/new/TB_NanoProcessor.vhd,1714920730,vhdl,,,,tb_nanoprocessor,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/Desktop/NanoProcessor.vhd,1714920192,vhdl,,,,nanoprocessor,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/Project/3bit_Add/3bit_Add.srcs/sources_1/new/Adder_3bit.vhd,1714920670,vhdl,,,,adder_3bit,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/Project/Multiplexer/Multiplexer.srcs/sources_1/new/Mux_2_to_1_3bit.sv,1714920650,vhdl,,,,mux_2_to_1_3bit,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/Project/Multiplexer/Multiplexer.srcs/sources_1/new/Mux_2_to_1_4bit.vhd,1714920438,vhdl,,,,mux_2_to_1_4bit,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/Project/Multiplexer/Multiplexer.srcs/sources_1/new/Mux_8_to_1_4bit.vhd,1714920572,vhdl,,,,mux_8_to_1_4bit,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/Project/ProgramCounter/ProgramCounter.srcs/sources_1/imports/new/D_FF.vhd,1714920342,vhdl,,,,d_ff,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/Project/Program_ROM/Program_ROM.srcs/sources_1/new/Program_ROM.vhd,1714930314,vhdl,,,,program_rom,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/Project/Registers/Registers.srcs/sources_1/imports/new/Decoder_2_to_4.vhd,1714920510,vhdl,,,,decoder_2_to_4,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/Project/Registers/Registers.srcs/sources_1/imports/new/Decoder_3_to_8.vhd,1714920480,vhdl,,,,decoder_3_to_8,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/Project/Registers/Registers.srcs/sources_1/new/Register_4bit.vhd,1714920524,vhdl,,,,register_4bit,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/Project/Registers/Registers.srcs/sources_1/new/Register_Bank.vhd,1714920458,vhdl,,,,register_bank,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/new/Instruction_Decoder.vhd,1714919960,vhdl,,,,instruction_decoder,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/new/LUT_16_7.vhd,1714920290,vhdl,,,,lut_16_7,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/new/PC.vhd,1714920326,vhdl,,,,pc,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/new/Slow_Clk.vhd,1657990826,vhdl,,,,slow_clk,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/sources_1/imports/new/FA.vhd,1714920374,vhdl,,,,fa,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/sources_1/imports/new/HA.vhd,1714920398,vhdl,,,,ha,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/sources_1/imports/new/RCA.vhd,1714921292,vhdl,,,,rca,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/imports/sources_1/new/Add_Sub.vhd,1714920794,vhdl,,,,add_sub,,,,,,,,
+C:/Users/User/Music/final_project2.0/NP_Final/NP_Fnal.srcs/sources_1/new/multiplier_2.vhd,1714583922,vhdl,,,,multiplier_2,,,,,,,,

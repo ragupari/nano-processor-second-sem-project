@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Apr 29 11:30:25 2024
+# Process ID: 3736
+# Current directory: C:/Users/Vithu/OneDrive/Desktop/Sem-02-Ass/CODD/NP/NP_Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1640 C:\Users\Vithu\OneDrive\Desktop\Sem-02-Ass\CODD\NP\NP_Final\NP_Fnal.xpr
+# Log file: C:/Users/Vithu/OneDrive/Desktop/Sem-02-Ass/CODD/NP/NP_Final/vivado.log
+# Journal file: C:/Users/Vithu/OneDrive/Desktop/Sem-02-Ass/CODD/NP/NP_Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Vithu/OneDrive/Desktop/Sem-02-Ass/CODD/NP/NP_Final/NP_Fnal.xpr
+update_compile_order -fileset sources_1
