@@ -1,4 +1,4 @@
-The following are included in this git repo
+The following are included in this git repo.
 
 1. Vivado Project file(s) and all the source files prepared for the simulation (i.e. slow clock for simulation) in a zipped folder.
 
