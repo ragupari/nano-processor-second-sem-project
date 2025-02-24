@@ -1,4 +1,11 @@
-The following are included in this git repository.
+## Contributors
+- [Parishith Ragumar](https://github.com/ragupari)
+- [Kajaluxan Sivakumaran](http://github.com/Kajaluxan)
+- [Vithursanaa Nithiyaraj](https://github.com/Vithursanaa)
+- [Sukithan Thillainathan](https://github.com/Sukithan)
+
+
+## The following are included in this git repository.
 
 1. Vivado Project file(s) and all the source files prepared for the simulation (i.e. slow clock for simulation) in a zipped folder.
 
